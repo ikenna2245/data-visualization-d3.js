@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Scatter Plot</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="chart-title">
+        <h2 class="p4">A0220767 - Ikenna Miracle Umeh</h2>
+        <h4 class="pt-3 text-center "> <span class="lead">Chart Title: </span> Scatterplot</h4>
+        <p class="text-center"> <span class="lead">Description: </span> Showing the relationship between total attendance and student performance</p>
+    </div>
+    <div class="border text-center p-3">
+        <h4>Select Module</h4>
+        <select name="modules" id="modulecode">
+            <option selected value ="all">All</option>    
+            <option value="COM3038-N">COM3038-N </option>
+            <option value="CIS4008-N">CIS4008-N </option>
+            <option value="CIS4023-N">CIS4023-N </option>
+            <option value="CIS4021-N">CIS4021-N </option>
+            <option value="CIS4022-N">CIS4022-N </option>
+            <option value="COM4077-N">COM4077-N </option>
+            <option value="CIS4010-N">CIS4010-N </option>
+            <option value="CIS4037-N">CIS4037-N </option>
+            <option value="CIS4040-N">CIS4040-N </option>
+            <option value="CIS4009-N">CIS4009-N</option>
+            <option value="CIS4012-N">CIS4012-N </option>
+            <option value="CIS4020-N">CIS4020-N </option>
+            <option value="CIS4027-N">CIS4027-N </option>
+            <option value="CIS4019-N">CIS4019-N</option>
+        </select>
+    </div>
+
+    <div id="scatter" class="p-2 m-3">
+
+    </div>
+    <p> Fig 2. Scatterplot of the total attendance and student mark</p>
+    <script src="../js/scatterPlot.js">
+    </script>
+</body>
+
+</html>
